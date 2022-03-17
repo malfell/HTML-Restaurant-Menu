@@ -112,12 +112,26 @@ The bullet points were so far away. Also adds a nice border. */
 /* Highlights the nav bar based on what page you're on */
 #navHighlight {
     border-style: ridge;
-    background-color: rgb(174, 224, 222);
+    background-color: rgb(255, 255, 255);
+    color:darkred;
+    border-color:darkgreen;
 }
 
+/*Just a closing banner for the top of each page. */
 #closingBanner {
     border-style: solid;
     border-radius: 10px;
-    background-color: rgb(174, 224, 222);
+    background-color: rgb(255, 255, 255);
     padding: 5px;
+}
+
+/* Footer for social media icons*/
+#social {
+    letter-spacing: 4px;
+    font-size: 30px;
+    background-color:white;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 20px;
+    margin: 10px;
 }
