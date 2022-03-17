@@ -11,6 +11,10 @@
 <body>
     <!-- CONTACT PAGE -->
     <!-- TODO: Navbar here -->
+    <!--Nav bar contains Home, Menu, About, and Contact.
+    They all link to the corresponding html pages. The page we're currently
+    on is the one with ID navHighlight to be highlighted with a border and 
+    background.-->
     <nav class="nav">
         <ul class="nav ul">
             <li class="nav li">
@@ -30,13 +34,21 @@
                 </a>
             </li>
             <li class="nav li">
-                <a class="nav a" href ="contact.html">
+                <a id="navHighlight" class="nav a" href ="contact.html">
                     Contact
                 </a>
             </li>
 
         </ul>
     </nav>
+
+    <!--Banner for closing!!-->
+    <div>
+        <p id="closingBanner">Deepest apologies! We will be closed for the summer. 
+            Our workers deserve a paid vacation.</p>
+    </div>
+
+
     <!-- TODO: Banner Image here-->
     <div id="banner">
         <img id="banner img" alt="Banner logo" src="assets\images\banner.png">
@@ -50,6 +62,8 @@
             <strong>Saturday-Sunday:</strong> 1:00pm-10:00pm
         </p>
         <h2>Contact Info</h2>
+        <!--All the contact info is here along with corresponding icons.
+        Phone number, email, and address.-->
         <p>
             <i class="fa fa-phone" aria-hidden="true"></i>
             <strong>Phone Number:</strong> (xxx)xxx-xxxx <br>
@@ -60,4 +74,5 @@
         </p>
     </main>
 </body>
+<!--Thanks for grading my work!-->
 </html>

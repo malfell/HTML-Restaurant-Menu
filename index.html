@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>H-Thai-ML</title>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <script src="https://use.fontawesome.com/cc7c57117a.js"></script>
+   
 </head>
 <body>
     <!-- HOME PAGE -->
     <!-- TODO: Navbar here -->
+    <!--Nav bar contains Home, Menu, About, and Contact.
+    They all link to the corresponding html pages. The page we're currently
+    on is the one with ID navHighlight to be highlighted with a border and 
+    background.-->
     <nav class="nav">
         <ul class="nav ul">
             <li class="nav li">
-                <a class="nav a" href="index.html">
+                <a id="navHighlight" class="nav a" href="index.html">
                     Home
                 </a>
             </li>
@@ -37,6 +41,12 @@
         </ul>
     </nav>
 
+    <!--Banner for closing!!-->
+    <div>
+        <p id="closingBanner">Deepest apologies! We will be closed for the summer. 
+            Our workers deserve a paid vacation.</p>
+    </div>
+
     <!-- TODO: Banner Image here-->
     <div id="banner">
         <img id="banner img" alt="Banner logo" src="assets\images\banner.png">
@@ -46,6 +56,8 @@
     <main>
         <h1>H-Thai-ML</h1>
         <!-- TODO: Home page code here-->
+        <!--Restaurant logo below! Reasoning for CSS IDs is in
+        the CSS file.-->
         <div id="centerDiv">
         <h2 id="textLeft">if (stomach = empty) { <br>
                 eatHere() <br>
@@ -53,19 +65,26 @@
         </h2>
         </div>
 
-        <div class="servive">
+        <!--Options below!
+        They LOOK like clickable buttons, but they're just here
+        to taunt customers who don't want to dine in. Should probably
+        do something about these buttons though.-->
+        <div class="service">
             <h3>Dine In</h3>
         </div>
 
-        <div class="servive">
+        <div class="service">
             <h3>Take Out</h3>
         </div>
 
-        <div class="servive">
+        <div class="service">
             <h3>Delivery</h3>
         </div>
 
         <div>
+            <!--Got an image of our nice restaurant here. Customers will see
+            it and WANT to dine in. Hopefully because Take Out and Delivery
+            aren't available buttons yet.-->
             <img id="banner img" alt="Tables in restaurant" src="assets\images\table-in-restaurant.jpg">
         </div>    
 

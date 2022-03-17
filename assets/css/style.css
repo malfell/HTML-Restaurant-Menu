@@ -86,18 +86,38 @@ th {
     padding: 5px;
 }
 
+/* This was for the slogan. I wanted it the main text to be centered
+but still left aligned, so I centered the div. */
 #centerDiv {
     margin: auto;
     width: 30%;
 }
 
+/* This is just to make the slogan text be left aligned. I thought it looked
+better for being a coding joke. */
 #textLeft {
     text-align: left;
 }
 
+/*Removes the location bullet points because it looked weird to me. 
+The bullet points were so far away. Also adds a nice border. */
 #locations {
     list-style-type: none;
     text-align: left;
     border: 1px solid green;
     padding:5px
+}
+
+
+/* Highlights the nav bar based on what page you're on */
+#navHighlight {
+    border-style: ridge;
+    background-color: rgb(174, 224, 222);
+}
+
+#closingBanner {
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(174, 224, 222);
+    padding: 5px;
 }
